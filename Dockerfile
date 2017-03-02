@@ -1,10 +1,8 @@
 FROM danshan/shanhh-docker
 MAINTAINER i@shanhh.com
 
-EXPOSE 80
 
-RUN mkdir /jekyll
-ADD blog /jekyll/blog
+ADD jekyll /opt/data/jekyll
 ADD qiniu /jekyll/qiniu
 WORKDIR /jekyll/blog
 RUN jekyll build
@@ -15,5 +13,5 @@ RUN ln -s /etc/nginx/sites-available/shanhh.com /etc/nginx/sites-enabled/shanhh.
 
 ADD bin/entrypoint.sh /jekyll/entrypoint.sh
 
-
+EXPOSE 80
 ENTRYPOINT ["/jekyll/entrypoint.sh"]

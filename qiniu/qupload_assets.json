@@ -1,0 +1,19 @@
+{
+   "src_dir"            :   "/jekyll/blog/_site/assets",
+   "access_key"         :   "QINIU_ACCESS_KEY",
+   "secret_key"         :   "QINIU_SECRET_KEY",
+   "bucket"             :   "shanhh-com",
+   "ignore_dir"         :   false,
+   "key_prefix"         :   "blog/assets/",
+   "overwrite"          :   false,
+   "check_exists"       :   false,
+   "check_hash"         :   false,
+   "check_size"         :   false,
+   "skip_file_prefixes" :   ".git,bin",
+   "skip_path_prefixes" :   "hello/,temp/",
+   "skip_fixed_strings" :   ".svn",
+   "skip_suffixes"      :   ".DS_Store,.exe",
+   "rescan_local"       :   true,
+   "log_file"           :   "upload.log",
+   "log_level"          :   "info"
+}

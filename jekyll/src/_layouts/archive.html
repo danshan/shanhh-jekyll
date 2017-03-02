@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="index">
+  {% include site__logo.html %}
+  <div id="main" role="main">
+    <div class="page__wrap">
+      {% include page__header.html %}
+      {% include page__hero.html %}
+      <div class="list">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include ad.html %}
