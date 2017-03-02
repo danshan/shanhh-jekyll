@@ -3,15 +3,16 @@ MAINTAINER i@shanhh.com
 
 
 ADD jekyll /opt/data/jekyll
-ADD qiniu /jekyll/qiniu
-WORKDIR /jekyll/blog
+ADD qiniu /opt/data/qiniu
+
+WORKDIR /opt/data/jekyll
 RUN jekyll build
 
 RUN rm -rf /etc/nginx/sites-enabled/default
 ADD nginx/shanhh.com /etc/nginx/sites-available/shanhh.com
 RUN ln -s /etc/nginx/sites-available/shanhh.com /etc/nginx/sites-enabled/shanhh.com
 
-ADD bin/entrypoint.sh /jekyll/entrypoint.sh
+ADD bin/entrypoint.sh /opt/data/entrypoint.sh
 
 EXPOSE 80
-ENTRYPOINT ["/jekyll/entrypoint.sh"]
+ENTRYPOINT ["/opt/data/entrypoint.sh"]
