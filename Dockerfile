@@ -9,5 +9,5 @@ ADD bin/entrypoint.sh /opt/data/entrypoint.sh
 
 WORKDIR /opt/data/jekyll
 
-EXPOSE 80
+EXPOSE 4000
 ENTRYPOINT ["/opt/data/entrypoint.sh"]
