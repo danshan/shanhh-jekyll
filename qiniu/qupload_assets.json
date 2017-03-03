@@ -1,5 +1,5 @@
 {
-   "src_dir"            :   "/jekyll/blog/_site/assets",
+   "src_dir"            :   "/opt/data/jekyll/assets",
    "access_key"         :   "QINIU_ACCESS_KEY",
    "secret_key"         :   "QINIU_SECRET_KEY",
    "bucket"             :   "shanhh-com",
