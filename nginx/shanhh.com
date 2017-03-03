@@ -36,7 +36,7 @@ server {
     ssl_stapling_verify on;
 
     server_name shanhh.com www.shanhh.com;
-    root /jekyll/blog/_site;
+    root /opt/data/jekyll/_site;
 
     location / {
         index index.html index.htm;
