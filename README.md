@@ -1,6 +1,8 @@
 # shanhh-jekyll
 
 [![Build Status](https://travis-ci.org/danshan/shanhh-jekyll.svg?branch=master)](https://travis-ci.org/danshan/shanhh-jekyll)
+[![](https://images.microbadger.com/badges/image/danshan/shanhh-jekyll.svg)](https://microbadger.com/images/danshan/shanhh-jekyll "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/danshan/shanhh-jekyll.svg)](https://microbadger.com/images/danshan/shanhh-jekyll "Get your own version badge on microbadger.com")
 
 启动完成如下任务:
 
