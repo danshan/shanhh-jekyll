@@ -6,4 +6,5 @@ jobs:
       - image: danshan/shanhh-docker
     steps:
       - checkout
+      - run: cd jekyll
       - run: jekyll build
