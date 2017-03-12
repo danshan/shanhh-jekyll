@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/shanhh-jekyll
+    docker:
+      - image: danshan/shanhh-docker
+    steps:
+      - checkout
+      - run: jekyll build
