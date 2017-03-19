@@ -2,8 +2,8 @@
 
 sed -i 's/QINIU_ACCESS_KEY/'"$QINIU_ACCESS_KEY"'/g' /opt/data/qiniu/qupload_*.json
 sed -i 's/QINIU_SECRET_KEY/'"$QINIU_SECRET_KEY"'/g' /opt/data/qiniu/qupload_*.json
-/opt/tools/qshell/qshell_linux_amd64 qupload /opt/data/qiniu/qupload_assets.json
-/opt/tools/qshell/qshell_linux_amd64 qupload /opt/data/qiniu/qupload_files.json
+/opt/tools/qshell/qshell_linux_amd64 qupload /opt/data/qiniu/qupload_assets.json 20
+/opt/tools/qshell/qshell_linux_amd64 qupload /opt/data/qiniu/qupload_files.json 20
 
 jekyll serve --host=0.0.0.0
 
