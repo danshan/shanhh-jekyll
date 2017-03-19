@@ -5,5 +5,5 @@ sed -i 's/QINIU_SECRET_KEY/'"$QINIU_SECRET_KEY"'/g' /opt/data/qiniu/qupload_*.js
 /opt/tools/qshell/qshell_linux_amd64 qupload 20 /opt/data/qiniu/qupload_assets.json
 /opt/tools/qshell/qshell_linux_amd64 qupload 20 /opt/data/qiniu/qupload_files.json
 
-JEKYLL_ENV=production jekyll serve
+JEKYLL_ENV=production jekyll serve --host=0.0.0.0
 
