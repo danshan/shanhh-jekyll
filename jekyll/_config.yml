@@ -9,6 +9,7 @@ words_per_minute: 200
 url: http://www.shanhh.com
 cdn: "https://cdn.shanhh.com/blog"
 img: "?imageView2/0/w/640/h/640"
+img_origin: "?imageView2/0"
 #cdn: "http://localhost:4000"
 # url:
 

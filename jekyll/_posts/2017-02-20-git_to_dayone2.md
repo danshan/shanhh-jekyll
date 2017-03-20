@@ -19,6 +19,8 @@ image:
 <img src="{{ site.cdn }}/files/2017/02/dayone1.png{{ site.img }}">
 </figure>
 
+{% img /files/2017/02/dayone1.png %}
+
 第一步当然是安装 Day One 2的cli工具, 官方提供了支持文档 [Command Line Interface (CLI)](http://help.dayoneapp.com/command-line-interface-cli/)
 
 安装只需一行命令
