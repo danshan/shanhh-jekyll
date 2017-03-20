@@ -281,4 +281,4 @@ public class MD5Digest {
 }
 {% endhighlight %}
 
-<a href="{{ site.cdn }}/files/2012/11/MD5Digest.java" class="btn btn-success"><i class="icon-download icon-white"></i> 下载 MD5Digest.java</a>
+{% download /files/2012/11/MD5Digest.java MD5Digest.java %}
