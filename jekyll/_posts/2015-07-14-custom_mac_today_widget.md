@@ -16,7 +16,7 @@ image:
 
 先看看我自己的配置
 
-<img src="{{ site.cdn }}/files/2015/07/widget-01.png{{ site.img }}">
+{% img /files/2015/07/widget-01.png %}
 
 这里用到了一个不错的 [Today-Scripts](https://github.com/SamRothCA/Today-Scripts) 开源软件. 安装以后, 可以在 Today 中增加多个 script, 用于执行系统命令.
 
