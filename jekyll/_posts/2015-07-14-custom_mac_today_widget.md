@@ -28,13 +28,13 @@ cal | grep --before-context 6 --after-context 6 --color -e "$(date +%e)" -e "^$(
 /usr/local/bin/icalBuddy -f -sd eventsToday+3
 {% endhighlight %}
 
-<img src="{{ site.cdn }}/files/2015/07/widget-02.png{{ site.img }}">
+{% img /files/2015/07/widget-02.png %}
 
 第一个命令不用说了, 用于显示日历. 第二个命令用到了另一个工具 [icalBuddy](http://hasseg.org/icalBuddy/), 用于显示近几日的日程.
 
 用同样的方式, 我又增加了一个脚本, 只是做一个很简单的 cat 操作, 用于做一个简单的便签操作.
 
-<img src="{{ site.cdn }}/files/2015/07/widget-03.png{{ site.img }}">
+{% img /files/2015/07/widget-03.png %}
 
 另外在写了一个 alfred 的 workflow 用于写入这个文件. 只贴了关键代码, 实现起来很简单.
 

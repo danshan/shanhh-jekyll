@@ -10,31 +10,31 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-01.jpg{{ site.img }}">
+{% img /files/2015/07/fuckcode-01.jpg %}
 
 这个是在pptv中定义变量的时候, 碰到英文捉急了...果然有人说开发中难度最大的地方就是在于定义变量.
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-02.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-02.jpg %}
 
 为了一个左侧导航的功能点是否放出来, 加入了一段非常恶心的代码.
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-03.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-03.jpg %}
 
 这个上下文有点长...不说了
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-04.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-04.jpg %}
 
 产品对于结婚的同城活动参与用户的一段硬逻辑.
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-05.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-05.jpg %}
 
 旅游婚纱是这边最特殊的模块...有很多吐槽的地方:
 
@@ -46,36 +46,36 @@ image:
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-06.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-06.jpg %}
 
 针对一些特殊文案的逻辑.
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-07.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-07.jpg %}
 
 又是旅游婚纱.
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-08.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-08.jpg %}
 
 又是旅游婚纱..
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-09.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-09.jpg %}
 
 生命周期的一段打点的处理逻辑.
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-10.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-10.jpg %}
 
 单元测试里的吐槽就更多了.
 
 ---
 
-<img src="{{ site.cdn }}/files/2015/07/fuckcode-11.png{{ site.img }}">
+{% img /files/2015/07/fuckcode-11.jpg %}
 
 之前在前公司里单元测试中的就更多了. 不过都在测试代码中.
