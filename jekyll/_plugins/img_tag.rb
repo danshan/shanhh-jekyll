@@ -1,7 +1,6 @@
 module Jekyll
   class RenderImageTag < Liquid::Tag
-    safe false
-
+  
     def initialize(tag_name, text, tokens)
       super
       @text = text
