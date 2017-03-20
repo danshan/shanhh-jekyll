@@ -10,7 +10,7 @@ module Jekyll
       img = context.registers[:site].config["img"]
       img_origin = context.registers[:site].config["img_origin"]
 
-      "<figure><a href=\"#{cdn}#{@text}#{img_origin}\"><img src=\"#{cdn}#{@text}#{img}\"></a></figure>"
+      "<figure><a href=\"#{cdn}#{@text}#{img_origin}\"><img src=\"#{cdn}#{@text}#{img}\"></a></figure><figcaption></figcaption>"
     end
   end
 end
