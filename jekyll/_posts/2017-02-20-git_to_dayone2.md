@@ -15,10 +15,6 @@ image:
 
 一个偶然的机会, 发现了 Day one 的自动添加日记功能 API, 可以自动将每日的工作整理入库.
 
-<figure>
-<img src="{{ site.cdn }}/files/2017/02/dayone1.png{{ site.img }}">
-</figure>
-
 {% img /files/2017/02/dayone1.png %}
 
 第一步当然是安装 Day One 2的cli工具, 官方提供了支持文档 [Command Line Interface (CLI)](http://help.dayoneapp.com/command-line-interface-cli/)
@@ -73,6 +69,4 @@ done
 最后一步, 为了有的时候周末在家或者咖啡厅写代码, 可能不会触发 17:30 的job, 我需要添加一个方便的手动触发的功能.
 这一次, 借助了 Alfred 的 workflow.
 
-<figure>
-<img src="{{ site.cdn }}/files/2017/02/dayone2.png{{ site.img }}">
-</figure>
+{% img /files/2017/02/dayone2.png %}
