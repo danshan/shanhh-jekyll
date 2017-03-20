@@ -2,7 +2,7 @@ module Jekyll
   class RenderImageTag < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      @text = text
+      @text = text.strip
     end
 
     def render(context)
