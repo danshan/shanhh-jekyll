@@ -16,25 +16,25 @@ image:
 
 ---
 
-{% img /files/2015/07/fuckcode-02.jpg %}
+{% img /files/2015/07/fuckcode-02.png %}
 
 为了一个左侧导航的功能点是否放出来, 加入了一段非常恶心的代码.
 
 ---
 
-{% img /files/2015/07/fuckcode-03.jpg %}
+{% img /files/2015/07/fuckcode-03.png %}
 
 这个上下文有点长...不说了
 
 ---
 
-{% img /files/2015/07/fuckcode-04.jpg %}
+{% img /files/2015/07/fuckcode-04.png %}
 
 产品对于结婚的同城活动参与用户的一段硬逻辑.
 
 ---
 
-{% img /files/2015/07/fuckcode-05.jpg %}
+{% img /files/2015/07/fuckcode-05.png %}
 
 旅游婚纱是这边最特殊的模块...有很多吐槽的地方:
 
@@ -46,36 +46,36 @@ image:
 
 ---
 
-{% img /files/2015/07/fuckcode-06.jpg %}
+{% img /files/2015/07/fuckcode-06.png %}
 
 针对一些特殊文案的逻辑.
 
 ---
 
-{% img /files/2015/07/fuckcode-07.jpg %}
+{% img /files/2015/07/fuckcode-07.png %}
 
 又是旅游婚纱.
 
 ---
 
-{% img /files/2015/07/fuckcode-08.jpg %}
+{% img /files/2015/07/fuckcode-08.png %}
 
 又是旅游婚纱..
 
 ---
 
-{% img /files/2015/07/fuckcode-09.jpg %}
+{% img /files/2015/07/fuckcode-09.png %}
 
 生命周期的一段打点的处理逻辑.
 
 ---
 
-{% img /files/2015/07/fuckcode-10.jpg %}
+{% img /files/2015/07/fuckcode-10.png %}
 
 单元测试里的吐槽就更多了.
 
 ---
 
-{% img /files/2015/07/fuckcode-11.jpg %}
+{% img /files/2015/07/fuckcode-11.png %}
 
 之前在前公司里单元测试中的就更多了. 不过都在测试代码中.
