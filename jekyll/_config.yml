@@ -1,79 +1,38 @@
-title:            Dan's Workspace
-description:      .
-comments:         true
-disqus_shortname: danshan
-reading_time:     true
-words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url: http://www.shanhh.com
-cdn: "https://cdn.shanhh.com/blog"
-img: "?imageView2/0/w/640/h/640"
-img_origin: "?imageView2/0"
-#cdn: "http://localhost:4000"
-# url:
+# Site settings
+title: Paper Theme
+description: > # this means to ignore newlines until "baseurl:"
+  A gentle theme for Jekyll utilising material design.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
 
-# Owner/author information
-owner:
-  name:           Dan
-  avatar:         avatar.jpg
-  bio:            "未来的家庭, 除了一扇窗户, 还有一只企鹅."
-  email:          i@shanhh.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        shanhh
-  facebook:       
-  github:         danshan
-  stackexchange:  
-  linkedin:       shanhh
-  instagram:      shanhonghao
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    110475089460769275190
-
-# Background image to be tiled on all pages
-background: 
-
-# Analytics and webmaster tools stuff goes here
-google_tagmanager: # GTM-WXCRCX
-google_analytics: UA-86353624-1
-google_verify: 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-tencent_ta: 59235663
-      
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
-future:      true
+# Build settings
+markdown: kramdown
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
 highlighter: pygments
-markdown:    kramdown
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-sass:
-  sass_dir: _sass
-  style: compressed
+gems: [jekyll-paginate, jekyll-coffeescript]
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# comments
+disqus: # add disqus shortname here
 
-# Amount of post to show on home page
-paginate: 5
+# author info
+# add your appropriate info here
+author: # your name
+bio:    # your bio
+email:
+email_md5: # md5 hash of your email
+twitter_username:
+github_username:
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  syntax_highlighter: coderay
-
-  syntax_highlighter_opts:
-    line_numbers: nil
-    line_numbers_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+# Theming options
+# These settings are mandatory.
+materialtheme:              'blue-pink'
+# drawer theming
+drawer:
+  text_color:       'grey-600'
+  header_color:     'blue-500'
+  navigation_color: 'grey-200'
+# footer theming
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'

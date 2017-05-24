@@ -1,0 +1,66 @@
+# Site settings
+title:            Dan's Workspace
+description: > # this means to ignore newlines until "baseurl:"
+  Dan's Workspace
+baseurl: "/" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
+
+# Build settings
+markdown:    kramdown
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
+highlighter: pygments
+timezone:    Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+gems:
+    #  - jekyll-coffeescript
+  - jekyll-sitemap
+  - jekyll-paginate
+permalink:   /:categories/:title/
+
+# comments
+disqus: danshan # add disqus shortname here
+
+# footer theming
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'
+
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url: http://www.shanhh.com
+cdn: "https://cdn.shanhh.com/blog"
+img: "?imageView2/0/w/640/h/640"
+img_origin: "?imageView2/0"
+#cdn: "http://localhost:4000"
+# url:
+
+# Owner/author information
+owner:
+  name:           Dan
+  avatar:         avatar.jpg
+  bio:            "未来的家庭, 除了一扇窗户, 还有一只企鹅."
+  email:          i@shanhh.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        shanhh
+  facebook:       
+  github:         danshan
+  stackexchange:  
+  linkedin:       shanhh
+  instagram:      shanhonghao
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    110475089460769275190
+
+# Background image to be tiled on all pages
+background: 
+
+# Analytics and webmaster tools stuff goes here
+google_tagmanager: # GTM-WXCRCX
+google_analytics: UA-86353624-1
+google_verify: 
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+tencent_ta: 59235663
+      
+#exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
