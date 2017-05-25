@@ -133,7 +133,7 @@ layout: default
   <div class="mdl-grid pagination">
     <div class="mdl-cell mdl-cell--6-col previous">
       {% if page.previous %}
-        <a class="mdl-button mdl-button--primary" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous Post</a>
+        <a class="mdl-button mdl-button--primary" href="{{ page.previous.url }}" title="{{ page.previous.title | xml_escape }}">&larr; Previous Post</a>
       {% else %}
         <a class="mdl-button mdl-button--primary" disabled>&larr; Previous Post</a>
       {% endif %}
@@ -141,7 +141,7 @@ layout: default
 
     <div class="mdl-cell mdl-cell--6-col next">
       {% if page.next %}
-        <a class="mdl-button mdl-button--primary" href="{{ page.next.url }}" title="{{ page.next.title }}">Next Post &rarr;</a>
+        <a class="mdl-button mdl-button--primary" href="{{ page.next.url }}" title="{{ page.next.title | xml_escape }}">Next Post &rarr;</a>
       {% else %}
         <a class="mdl-button mdl-button--primary" disabled>Next Post &rarr;</a>
       {% endif %}
