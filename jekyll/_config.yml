@@ -1,5 +1,5 @@
 # Site settings
-title: Paper Theme
+title: Dan's Workspace
 description: > # this means to ignore newlines until "baseurl:"
   A gentle theme for Jekyll utilising material design.
 # Your site's domain goes here (eg: //shanhh.com, https://shanhh.com, etc)
@@ -29,6 +29,7 @@ github_username:
 
 # Theming options
 # These settings are mandatory.
+# https://getmdl.io/customize/
 materialtheme:              'blue-pink'
 # drawer theming
 drawer:
