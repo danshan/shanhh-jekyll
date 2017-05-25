@@ -16,7 +16,7 @@ highlighter: pygments
 gems: [jekyll-paginate, jekyll-coffeescript]
 
 # comments
-disqus: # add disqus shortname here
+disqus: danshan # add disqus shortname here
 
 # author info
 # add your appropriate info here
@@ -24,8 +24,8 @@ author: Dan Shan # your name
 bio:    # your bio
 email: i@shanhh.com
 email_md5: ede7321f1c1a33e02e679abbddaf4b3d # md5 hash of your email
-twitter_username:
-github_username:
+twitter_username: shanhh
+github_username: danshan
 
 # Theming options
 # These settings are mandatory.
