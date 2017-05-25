@@ -14,9 +14,10 @@ paginate: 5 # pagination based on number of posts
 paginate_path: "page/:num"
 highlighter: pygments
 gems: [jekyll-paginate, jekyll-coffeescript]
+permalink:  /:title
 
 # comments
-disqus: danshan # add disqus shortname here
+#disqus: danshan # add disqus shortname here
 
 # author info
 # add your appropriate info here
@@ -26,6 +27,7 @@ email: i@shanhh.com
 email_md5: ede7321f1c1a33e02e679abbddaf4b3d # md5 hash of your email
 twitter_username: shanhh
 github_username: danshan
+linkedin_username: shanhh
 
 # Theming options
 # These settings are mandatory.
@@ -40,3 +42,7 @@ drawer:
 footer:
   text_color: 'blue-grey-200'
   color: 'blue-grey-600'
+
+# analytics
+google_analytics: UA-86353624-1
+tencent_ta: 59235663
