@@ -4,6 +4,7 @@ title: 解决Outlook批量导出联系人到Linux中Evolution中文乱码
 date: 2010-11-21 11:35
 description: "有些喜欢使用linux的用户可能会选择evolution来收邮件, 但是从outlook导出到evolution的联系人, 所有的中文全部变成乱码, 主要是由于编码错误造成的, 下面来解决这个问题."
 tags: [outlook, evolution, linux, encoding]
+categories: Tips
 image:
   feature: abstract-1.jpg
   credit: dargadgetz
