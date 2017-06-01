@@ -1,8 +1,8 @@
 ---
-layout: resume 
-title: "Dan's Resume"
+layout: page 
 date: 2017-06-01
 comments: false
+hide: true
 --- 
 
 ### [单弘昊](https://www.shanhh.com)
