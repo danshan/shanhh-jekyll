@@ -50,7 +50,7 @@ secret = yyyyyyyyyyyyyyyyyy
 
 定位到有个 updateTokens function:
 
-{% highlight javascript %}
+```js
     TokensView.prototype.updateTokens = function(tokenRows) {
       var app, element, i, len, results, tokenRow;
       results = [];
@@ -63,7 +63,7 @@ secret = yyyyyyyyyyyyyyyyyy
       }
       return results;
     };
-{% endhighlight %}
+```
 
 这部分逻辑在每隔30秒更新token时触发, 我们这里动点手脚:
 
