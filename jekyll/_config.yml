@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   未来的家庭, 除了一扇窗户, 还有一致企鹅.
 # Your site's domain goes here (eg: //shanhh.com, https://shanhh.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: http://127.0.0.1:4000
+url: #http://127.0.0.1:4000
 baseurl: '/' # the subpath of your site, e.g. /blog/
 favicon: favicon.png
 # url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
